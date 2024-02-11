@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.story-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.story-title{
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.story-title h1, h2{
+    display: flex;
+    justify-content: space-between;
+}
+.story-title h1{
+    font-size: 72px;
+}
+.story-title h1 span{
+    display: inline;
+}
+.story-title  h2{
+    font-weight: 100;
+}
+/* .top-story .red {
+    background: red;
+    display: inline-block;
+    font-style: italic;
+    font-size: 32px;
+} */
+
+h3{
+    padding: 15px;
+    display: inline-block;
+}
