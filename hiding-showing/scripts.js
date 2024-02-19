@@ -12,8 +12,8 @@ window.addEventListener("load", function () {
 /* 
 Setting the variables top_id and bottom_id as the ids of the divs we want to target later (this way we don't have to write it again and again if we need a reference to the ids later.
 */
-const top_id = "first-half-target"; 
-const bottom_id = "second-half-target";
+const top_id = "top-thing"; 
+const bottom_id = "bottom-thing";
 const story_container = "story-container"
 const mouse_position_container = "mouse-info-container"
 
@@ -36,18 +36,25 @@ const init = () => {
     let xPos = ev.clientX - mouseRadius;
     let yPos = ev.clientY - mouseRadius;
 
-
+    /* Put the current x,y position of the mouse in the circle */
     mouse_info.innerHTML = `(${xPos},${yPos})`;
 
+
+    /* Set the position of our circle div to the ouse position so we have a circle that follows the mouse */
     mouse_info.style.left = xPos;
-    mouse_info.style.top = yPos;
+    mouse_info.style.top = yPos
    
   });
 
 
+  bottom_div.addEventListener("click", function() {
+    top_div.className = top_div.className + " showing";
+  });
+
+  
+
+
   /* Now we USE the two references we have to our divs and replace their innerHTML (all the stuff contained within the div tag) with our story text.  */
-  top_div.innerHTML = story_text;
-  bottom_div.innerHTML = story_text;
 };
 
 
