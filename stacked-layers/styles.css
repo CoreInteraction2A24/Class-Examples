@@ -1,0 +1,24 @@
+.story-container{
+    height: 100vh;
+    width: 100%;
+}
+.frame{
+
+    /*
+
+    Each frame is full height and width and positioned absolutely.
+    Everything is stacked on top of one another and then revealed on click.
+    
+    */
+    font-family: 'georgia';
+    font-size: 64px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}

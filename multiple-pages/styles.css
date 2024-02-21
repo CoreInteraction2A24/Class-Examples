@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+a{
+    /* So that our links don't get the automatic blue color and underline*/
+
+    color: inherit;
+    text-decoration: none;
+}
+.story-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* A little load animation to spice things up! */
+    background-color: white;
+    animation-name: fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+h1, div{
+    font-family: 'georgia';
+}
+
+@keyframes fade-in {
+    from{background-color: black;}
+    to{
+        background-color: white;
+    }
+}

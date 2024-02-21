@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>thursday february 8</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+
+        function hideMe(event){
+            /* Clicking on a layer hides it by setting display to none*/
+            event.target.style.display = "none"
+        }
+    </script>
+  </head>
+  <body>
+    <div id="story-container" class="story-wrapper">
+      <div class="frame" onclick="hideMe(event)">Stacked Frame 3</div>
+      <div class="frame"  onclick="hideMe(event)">Stacked Frame 2</div>
+      <div class="frame"  onclick="hideMe(event)">Stacked Frame 1</div>
+    </div>
+  </body>
+</html>
