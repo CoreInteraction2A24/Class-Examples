@@ -1,0 +1,13 @@
+Books Nastasia Has Read 
+
+
+Title – string
+Author – string 
+Summary – longer string, character limit 200 
+Publisher – string
+Genre  – string
+Book Cover  – string, link to an image 
+Year of Publication – number (YYYY)
+When Did she read that Book – date string (YYYY-MM-DD)
+Why - string, character limit 200
+Rating or Review – number between 1-5
