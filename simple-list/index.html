@@ -1,13 +1,33 @@
 <html>
     <head>
         <script src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+
+        <script>
+
+            const closePopUp = ()=>{
+                const popUp = document.getElementById("pop-up-wrapper");
+                popUp.style.display = "none"
+                document.body.style.overflow = "scroll";
+            }
+        </script>
     </head>
     <body>
-        <h1> List Example – Feb 28th 2024</h1>
+        <h1> I LOVE BOOKS BY HARUKI MURAKAMI</h1>
+        <div id="summary" class="summary-tile">
+
+        </div>
 
         <div id="bookshelf" class="book-container">
             
         </div>
+        <div id="pop-up-wrapper" onclick="closePopUp()">
+            <div id="exit-button" >
+                close
+            </div>
+            <div id="pop-up-data">
 
+            </div>
+        </div>
     </body>
 </html>
