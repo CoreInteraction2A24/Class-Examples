@@ -1,5 +1,5 @@
 h1{
-    color: #305591;
+    color: black;
     font-family: arial;
     font-size: 10em;
     font-weight: 1200;
@@ -7,20 +7,35 @@ h1{
 }
 p{
     font-family: arial;
-    font-size: 2em;
-    text-align: center;
+    font-size: 1em;
+    text-align: justify;
+    max-width: 600px;
+    border-bottom: solid 1px black;
+    padding-bottom: 15px;
     
 }
+.top-logo{
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    position: relative;
+    text-align: center;
+    min-height: 320px;
+    border: solid 1px black;
+
+}
 img {
-    width: 800px;
-    height: auto;
-    opacity: .5;
+
+    width: 100%;
+    height: 100%;
+    opacity: .4;
     position: absolute;
     z-index: -1;
-    top: 60px;
+    top: 0px;
+    left: 0;
 }
 html{
-    background-color: #b9cdeb
+    background-color: #f9fbff
 }
 body {
     display: flex;
