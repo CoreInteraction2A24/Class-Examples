@@ -1,4 +1,26 @@
+body{
+    padding: 15%;
+    padding-top: 10%;
+}
 h1{
     font-family: "helvetica";
-    font-size: 44px;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    color: blue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 15;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+}
+h2:hover{
+    color:blue;
+    cursor: pointer;
+}
+img{
+    width: 1000px;
+    border:3px blue solid;
 }

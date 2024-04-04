@@ -1,7 +1,8 @@
-window.addEventListener("load", init);
 
 
 const init = ()=>{
 
     console.log("hello!");
 }
+
+window.addEventListener("load", init);
