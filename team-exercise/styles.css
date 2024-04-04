@@ -1,4 +1,30 @@
 h1{
-    font-family: "helvetica";
-    font-size: 44px;
+    color: #305591;
+    font-family: arial;
+    font-size: 10em;
+    font-weight: 1200;
+
+}
+p{
+    font-family: arial;
+    font-size: 2em;
+    text-align: center;
+    
+}
+img {
+    width: 800px;
+    height: auto;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+}
+html{
+    background-color: #b9cdeb
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;
 }
