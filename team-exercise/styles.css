@@ -1,4 +1,12 @@
-h1{
-    font-family: "helvetica";
-    font-size: 44px;
-}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f5f4e9;
+    margin:20px;
+  }
+  
+  h1{
+      font-family:"Helvetica";
+      font-size: 44px;
+      color:#de3023;
+     
+  }
