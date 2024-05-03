@@ -1,0 +1,38 @@
+html{
+    font-family: arial, "sans-serif";
+}
+
+.button-wrapper{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.button-wrapper div{
+    cursor: pointer;
+}
+
+.vis-wrapper{
+    height: 200px;
+    border: solid 1px black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items:flex-end;
+}
+.vis-wrapper div{
+    width: 100%;
+    transition: all ease-in 0.3s;
+}
+#bar-2017{
+    background-color: aquamarine;
+}
+#bar-2018{
+    background-color: rgba(127, 255, 212, 0.39);
+}
+
+#bar-2019{
+    background-color: rgba(127, 255, 212, 0.161);
+}
+
